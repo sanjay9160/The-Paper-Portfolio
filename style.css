@@ -2,17 +2,25 @@
   font-family: canopee;
   src: url(./fonts/616fd1dd00cf6c70f978fc69_Canopee.ttf);
 }
+@font-face {
+  font-family: DomaineDispCondMedium;
+  src: url(./fonts/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+@font-face {
+  font-family: EditorialNewLight;
+  src: url(./fonts/5f242a694256f02b944d5767_EditorialNew-Light.ttf);
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: Domaine Display, sans-serif;
+  font-family: "DomaineDispCondMedium";
   font-weight: 100;
   background-color: #cdc6be;
   height: 100%;
 }
 
 p {
-  font-family: editorial new light;
+  font-family: "EditorialNewLight";
 }
 
 html {
@@ -159,7 +167,7 @@ header .banner button {
   background-color: red;
   color: #fff;
   border: none;
-  font-family: Domaine Display, sans-serif;
+  font-family: "DomaineDispCondMedium";
   font-weight: 100;
   border-radius: 2px;
   font-size: 1vw;
@@ -361,7 +369,7 @@ aside .achivements .text h2 {
   margin: 0;
 }
 aside .achivements .number span {
-  font-family: editorial new light;
+  font-family: "EditorialNewLight";
   font-size: 10vw;
 }
 
@@ -415,7 +423,7 @@ aside .achivements .number span {
   line-height: 22vw;
 }
 .about-section .font {
-  font-family: Domaine Display, sans-serif;
+  font-family: "DomaineDispCondMedium";
   font-weight: 100;
 }
 .about-section .artisan {
@@ -514,7 +522,7 @@ aside .achivements .number span {
   background-color: red;
   color: #fff;
   border: none;
-  font-family: Domaine Display, sans-serif;
+  font-family: "DomaineDispCondMedium";
   font-weight: 100;
   border-radius: 2px;
   font-size: 1vw;
@@ -550,14 +558,14 @@ aside .achivements .number span {
 }
 .slider .slide h4 {
   font-size: 4.2vw;
-  font-family: Domaine Display, sans-serif;
+  font-family: "DomaineDispCondMedium";
   font-weight: 100;
 }
 .slider .slide .email {
   background-color: #000;
   color: #cdc6be;
   border: none;
-  font-family: Domaine Display, sans-serif;
+  font-family: "DomaineDispCondMedium";
   font-weight: 100;
   border-radius: 2px;
   padding: 0.5rem 0.5rem;
