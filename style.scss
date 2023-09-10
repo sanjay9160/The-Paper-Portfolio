@@ -672,7 +672,9 @@ footer {
             .left-artist {
                 width: 90%;
                 img {
-                    width: 50%;
+                    width: 100%;
+                    height: 60vw;
+                    object-fit: cover;
                 }
                 p {
                     font-size: 1rem;
@@ -689,10 +691,10 @@ footer {
             }
         }
         .big-text {
-            font-size: 14vw;
+            font-size: 18vw;
         }
         .bigger-text {
-            font-size: 14vw;
+            font-size: 18vw;
         }
         /*website-section*/
         .website-section {
@@ -797,16 +799,17 @@ footer {
         .about-left {
             width: 100%;
             img {
-                width: 45%;
+                width: 35%;
                 height: 45vw;
+                object-fit: cover;
             }
             .the {
-                width: 53%;
-                font-size: 47vw;
+                width: 64%;
+                font-size: 58vw;
             }
             .pixel {
                 width: 100%;
-                font-size: 50vw;
+                font-size: 59vw;
                 line-height: 50vw;
             }
         }
@@ -814,18 +817,18 @@ footer {
             width: 100%;
         }
         .about-trophy {
-            width: 70%;
+            width: 100%;
             margin: 0.9rem 0;
         }
         .perfect {
             width: 100%;
             font-size: 39vw;
-            line-height: 35vw;
+            line-height: 38vw;
         }
         .artisan {
             width: 100%;
             font-size: 38.5vw;
-            line-height: 32vw;
+            line-height: 37vw;
         }
         .about-text {
             width: 100%;
@@ -836,6 +839,7 @@ footer {
             }
             h2 {
                 font-size: 1.8rem;
+                line-height: 2.6rem;
             }
         }
     }
